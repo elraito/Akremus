@@ -11,6 +11,7 @@ module.exports = {
         "akrebrown": "#805858",
         "akrepurple": "#7C7287",
         "akredarkgray": "#656565",
+        "akregreen": "#84A98C"
       },
     }
   },
