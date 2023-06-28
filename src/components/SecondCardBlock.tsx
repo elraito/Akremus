@@ -11,7 +11,7 @@ export const SecondCardBlock = () => {
             </div>
 
             <div className="grid grid-cols-3 h-1/4">
-                <div className="text-3xl">Eesti Toodang</div>
+                <div className="text-3xl">Eesti toodang</div>
                 <div className="text-3xl">Puhtast loodusest</div>
                 <div className="text-3xl">Käsitsi korjatud</div>
 
