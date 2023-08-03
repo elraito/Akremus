@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <div className="w-full md:aspect-[6/1] md:max-h-96 mt-6 bg-akregreen px-24 py-12 text-white">
+    <div className="w-full md:aspect-[6/1] md:max-h-96 mt-6 bg-akregreen px-6 md:px-24 py-6 md:py-12 text-white">
       <div className="grid md:grid-cols-4">
         <div>AkreMus</div>
         <div className="flex flex-col gap-6">
@@ -23,7 +23,7 @@ export const Footer = () => {
         </div>
         <div className="flex flex-col gap-12">
           <div>Jälgi meid sotsiaalmeedias</div>
-          <div className="flex gap-6">
+          <div className="flex gap-6 place-content-center md:place-content-start">
             <div className="relative h-12 aspect-square">
               <Image
                 src="/footer-facebook.svg"
