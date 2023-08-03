@@ -3,7 +3,7 @@ import React from "react";
 
 export const CoverCallout = () => {
   return (
-    <div className="bg-pink-200 w-full aspect-[2/1] grid grid-cols-3">
+    <div className="bg-pink-200 w-full md:aspect-[2/1] grid md:grid-cols-3 pt-3 pb-3 md:pt-0 md:pb-0">
       <div className="flex flex-col justify-center align-middle text-center gap-6 w-3/4 ms-auto me-auto">
         <div className="text-akrebrown">Võta meiega ühendust</div>
         <div className="text-3xl tracking-wider">
@@ -28,7 +28,7 @@ export const CoverCallout = () => {
           </div>
         </div>
       </div>
-      <div className="col-span-3 md:col-span-2 relative">
+      <div className="hidden md:block col-span-3 md:col-span-2 relative">
         <Image
           src="/fingers.png"
           fill
